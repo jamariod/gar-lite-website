@@ -1,4 +1,3 @@
-// Mobile nav toggle
 const burger = document.getElementById("burger");
 const navLinks = document.getElementById("navLinks");
 
@@ -7,7 +6,6 @@ burger?.addEventListener("click", () => {
 	burger.setAttribute("aria-expanded", String(isOpen));
 });
 
-// Close mobile menu when clicking a link
 navLinks?.addEventListener("click", (e) => {
 	const target = e.target;
 	if (target && target.tagName === "A") {
@@ -16,10 +14,8 @@ navLinks?.addEventListener("click", (e) => {
 	}
 });
 
-// Footer year
 document.getElementById("year").textContent = String(new Date().getFullYear());
 
-// Contact form: mailto fallback
 const form = document.getElementById("contactForm");
 const note = document.getElementById("formNote");
 
@@ -41,7 +37,6 @@ form?.addEventListener("submit", (e) => {
 		`Name: ${name}\nEmail: ${email}\n\n${message}`,
 	);
 
-	// UPDATED: your real email
 	const to = "georgiaautismresources@gmail.com";
 
 	window.location.href = `mailto:${to}?subject=${subject}&body=${body}`;

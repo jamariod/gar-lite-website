@@ -504,7 +504,7 @@ h1 {
 }
 .contact__side {
 	display: grid;
-	gap: 18px; /* space between Quick links + Developer cards */
+	gap: 18px;
 }
 
 .form {
