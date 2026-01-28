@@ -1,0 +1,409 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>GAR-Lite — Georgia Autism Resources</title>
+		<meta
+			name="description"
+			content="GAR-Lite helps families find autism services across Georgia faster — search, filter, and save trusted resources in one simple app."
+		/>
+
+		<meta property="og:title" content="GAR-Lite — Georgia Autism Resources" />
+		<meta
+			property="og:description"
+			content="Search, filter, and save autism resources across Georgia."
+		/>
+		<meta property="og:type" content="website" />
+
+		<link rel="icon" href="assets/favicon.ico?v=2" sizes="any" />
+		<link
+			rel="icon"
+			type="image/png"
+			href="assets/favicon-32x32.png?v=2"
+			sizes="32x32"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			href="assets/favicon-16x16.png?v=2"
+			sizes="16x16"
+		/>
+		<link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+
+	<body>
+		<!-- Top Nav -->
+		<header class="nav">
+			<div class="container nav__inner">
+				<a class="brand" href="#top" aria-label="GAR-Lite Home">
+					<span class="brand__mark" aria-hidden="true">GAR</span>
+					<span class="brand__text">GAR-Lite</span>
+				</a>
+
+				<nav class="nav__links" id="navLinks">
+					<a href="#features">Features</a>
+					<a href="#screens">Screens</a>
+					<a href="#faq">FAQ</a>
+					<a href="#contact">Contact</a>
+					<a class="btn btn--small" href="#download">Get the app</a>
+				</nav>
+
+				<button
+					class="nav__burger"
+					id="burger"
+					aria-label="Open menu"
+					aria-expanded="false"
+				>
+					<span></span><span></span><span></span>
+				</button>
+			</div>
+		</header>
+
+		<!-- Hero -->
+		<main id="top">
+			<section class="hero">
+				<div class="container hero__grid">
+					<div class="hero__copy">
+						<p class="pill">Georgia Autism Resource — Lite</p>
+						<h1>
+							Find autism services across Georgia
+							<span class="grad">without the overwhelm.</span>
+						</h1>
+
+						<p class="subhead">
+							Search trusted resources, filter by category and city, and save
+							favorites. GAR-Lite is built to be fast, calm, and practical for
+							families and caregivers.
+						</p>
+
+						<!-- NOTE: no Google Play testing link -->
+						<div class="hero__cta" id="download">
+							<a class="btn btn--ghost" href="#features">See features</a>
+						</div>
+
+						<div class="hero__meta">
+							<div class="meta">
+								<div class="meta__num">Fast</div>
+								<div class="meta__label">Quick search + filters</div>
+							</div>
+							<div class="meta">
+								<div class="meta__num">Calm</div>
+								<div class="meta__label">Clean, low-stress UI</div>
+							</div>
+							<div class="meta">
+								<div class="meta__num">Trusted</div>
+								<div class="meta__label">Curated resource list</div>
+							</div>
+						</div>
+
+						<p class="fineprint">
+							* Coverage varies by plan and location. Contact providers to
+							confirm eligibility.
+						</p>
+					</div>
+
+					<div class="hero__visual">
+						<div class="phone phone--one">
+							<div class="phone__notch" aria-hidden="true"></div>
+							<div class="phone__screen">
+								<div class="mock mock--header">
+									<div class="dot"></div>
+									<div class="dot"></div>
+									<div class="dot"></div>
+								</div>
+
+								<div class="mock mock--card">
+									<div class="mock__title">Search resources</div>
+									<div class="mock__line"></div>
+									<div class="mock__line short"></div>
+								</div>
+
+								<div class="mock mock--list">
+									<div class="row">
+										<div class="badge">ABA</div>
+										<div class="row__text">
+											<div class="row__name">Therapy Center</div>
+											<div class="row__sub">Atlanta • Open website</div>
+										</div>
+										<div class="star" aria-hidden="true">★</div>
+									</div>
+									<div class="row">
+										<div class="badge">Speech</div>
+										<div class="row__text">
+											<div class="row__name">Speech Services</div>
+											<div class="row__sub">Marietta • Call</div>
+										</div>
+										<div class="star" aria-hidden="true">★</div>
+									</div>
+									<div class="row">
+										<div class="badge">OT</div>
+										<div class="row__text">
+											<div class="row__name">Occupational Therapy</div>
+											<div class="row__sub">Decatur • Directions</div>
+										</div>
+										<div class="star" aria-hidden="true">★</div>
+									</div>
+								</div>
+
+								<div class="mock mock--footer">
+									<span class="tab tab--active">Home</span>
+									<span class="tab">Favorites</span>
+									<span class="tab">Info</span>
+								</div>
+							</div>
+						</div>
+
+						<div class="glow" aria-hidden="true"></div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Trust strip -->
+			<section class="strip">
+				<div class="container strip__inner">
+					<p class="strip__text">
+						Built by an independent developer focused on clarity, accessibility,
+						and real-world usefulness.
+					</p>
+				</div>
+			</section>
+
+			<!-- Features -->
+			<section class="section" id="features">
+				<div class="container">
+					<div class="section__head">
+						<h2>Features that keep it simple</h2>
+						<p>
+							GAR-Lite is designed to help you get answers quickly — without
+							digging through a dozen tabs.
+						</p>
+					</div>
+
+					<div class="grid3">
+						<article class="card">
+							<div class="icon">🔎</div>
+							<h3>Search + Filter</h3>
+							<p>
+								Find resources by keyword, category, and city. Clear results,
+								fast navigation.
+							</p>
+						</article>
+
+						<article class="card">
+							<div class="icon">📍</div>
+							<h3>Maps + Directions</h3>
+							<p>
+								Open locations in your maps app for quick directions and easier
+								planning.
+							</p>
+						</article>
+
+						<article class="card">
+							<div class="icon">⭐</div>
+							<h3>Favorites</h3>
+							<p>
+								Save places you want to revisit so you don’t have to search
+								again later.
+							</p>
+						</article>
+
+						<article class="card">
+							<div class="icon">📞</div>
+							<h3>Call + Website</h3>
+							<p>
+								Tap to call providers, visit websites, and get the information
+								you need faster.
+							</p>
+						</article>
+
+						<article class="card">
+							<div class="icon">🧠</div>
+							<h3>Calm design</h3>
+							<p>
+								Built with a low-stress layout and clean typography — easier to
+								scan and use.
+							</p>
+						</article>
+
+						<article class="card">
+							<div class="icon">🛠️</div>
+							<h3>Always improving</h3>
+							<p>
+								Resources evolve — updates keep listings, categories, and
+								details more accurate.
+							</p>
+						</article>
+					</div>
+				</div>
+			</section>
+
+			<!-- Screenshots -->
+			<section class="section section--alt" id="screens">
+				<div class="container">
+					<div class="section__head">
+						<h2>Preview the app</h2>
+						<p>Here’s a real screenshot from GAR-Lite.</p>
+					</div>
+
+					<!-- UPDATED: use img1 and show only one screenshot -->
+					<div class="shots shots--single">
+						<figure class="shot">
+							<img src="assets/img1.png" alt="GAR-Lite Resources screen" />
+							<figcaption>Resources list</figcaption>
+						</figure>
+					</div>
+
+					<!-- REMOVED: the "Want testers?" / Google Play testing block -->
+				</div>
+			</section>
+
+			<!-- FAQ -->
+			<section class="section" id="faq">
+				<div class="container">
+					<div class="section__head">
+						<h2>FAQ</h2>
+						<p>Short answers to common questions.</p>
+					</div>
+
+					<div class="faq">
+						<details class="faq__item" open>
+							<summary>What is GAR-Lite?</summary>
+							<p>
+								GAR-Lite is a simpler, faster version of Georgia Autism Resource
+								— focused on search, filters, details, and favorites.
+							</p>
+						</details>
+
+						<details class="faq__item">
+							<summary>Is the app free?</summary>
+							<p>Yes.</p>
+						</details>
+
+						<details class="faq__item">
+							<summary>How accurate is the resource information?</summary>
+							<p>
+								Listings are curated and updated over time, but providers can
+								change. Always confirm hours, availability, and coverage
+								directly with the provider.
+							</p>
+						</details>
+
+						<details class="faq__item">
+							<summary>Can I request a new resource to be added?</summary>
+							<p>Yes — use the contact form below.</p>
+						</details>
+					</div>
+				</div>
+			</section>
+
+			<!-- Contact -->
+			<section class="section section--alt" id="contact">
+				<div class="container">
+					<div class="section__head">
+						<h2>Contact</h2>
+						<p>
+							Send feedback, request a resource, or report a listing update.
+						</p>
+					</div>
+
+					<div class="contact">
+						<form class="form" id="contactForm">
+							<label>
+								Name
+								<input
+									type="text"
+									name="name"
+									placeholder="Your name"
+									required
+								/>
+							</label>
+
+							<label>
+								Email
+								<input
+									type="email"
+									name="email"
+									placeholder="you@example.com"
+									required
+								/>
+							</label>
+
+							<label>
+								Message
+								<textarea
+									name="message"
+									rows="5"
+									placeholder="How can I help?"
+									required
+								></textarea>
+							</label>
+
+							<button class="btn" type="submit">Send message</button>
+							<p class="form__note" id="formNote" aria-live="polite"></p>
+						</form>
+
+						<aside class="contact__side">
+							<div class="card card--soft">
+								<h3>Quick links</h3>
+								<ul class="list">
+									<li><a href="#features">Features</a></li>
+									<li><a href="#screens">Screens</a></li>
+									<li><a href="#faq">FAQ</a></li>
+								</ul>
+							</div>
+
+							<div class="card card--soft">
+								<h3>Developer</h3>
+								<p>
+									Jamario Davis<br />
+									Independent app developer
+								</p>
+								<p class="fineprint">
+									Contact: georgiaautismresources@gmail.com
+								</p>
+							</div>
+						</aside>
+					</div>
+				</div>
+			</section>
+
+			<!-- Footer -->
+			<footer class="footer">
+				<div class="container footer__inner">
+					<div>
+						<div class="brand brand--footer">
+							<span class="brand__mark" aria-hidden="true">GAR</span>
+							<span class="brand__text">GAR-Lite</span>
+						</div>
+						<p class="fineprint">
+							© <span id="year"></span> GAR-Lite. All rights reserved.
+						</p>
+					</div>
+
+					<div class="footer__links">
+						<a href="#top">Back to top</a>
+						<a
+							href="https://apps.apple.com/us/app/georgiaautismresource/id6520382558"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							Georgia Autism Resource (iOS)
+						</a>
+						<a
+							href="https://apps.apple.com/us/app/autism-knowledge/id1412921028"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							Autism Knowledge (iOS)
+						</a>
+					</div>
+				</div>
+			</footer>
+		</main>
+
+		<script src="script.js"></script>
+	</body>
+</html>
